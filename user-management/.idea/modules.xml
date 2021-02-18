@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/user.cmd.api/user.cmd.api.iml" filepath="$PROJECT_DIR$/user.cmd.api/user.cmd.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/user.core/user.core.iml" filepath="$PROJECT_DIR$/user.core/user.core.iml" />
       <module fileurl="file://$PROJECT_DIR$/user.query.api/user.query.api.iml" filepath="$PROJECT_DIR$/user.query.api/user.query.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user.security/user.security.iml" filepath="$PROJECT_DIR$/user.security/user.security.iml" />
     </modules>
   </component>
 </project>

@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user.core" />
-        <module name="user.query.api" />
         <module name="user.cmd.api" />
+        <module name="user.query.api" />
+        <module name="user.security" />
+        <module name="user.core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="user.cmd.api" target="1.8" />
       <module name="user.core" target="1.8" />
       <module name="user.query.api" target="1.8" />
+      <module name="user.security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="user.cmd.api" options="-parameters" />
       <module name="user.core" options="-parameters" />
       <module name="user.query.api" options="-parameters" />
+      <module name="user.security" options="-parameters" />
     </option>
   </component>
 </project>
