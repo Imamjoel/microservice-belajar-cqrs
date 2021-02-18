@@ -1,14 +1,14 @@
 package com.belajar.user.cmd.api.aggregates;
 
-import com.springbank.user.cmd.api.commands.RegisterUserCommand;
-import com.springbank.user.cmd.api.commands.RemoveUserCommand;
-import com.springbank.user.cmd.api.commands.UpdateUserCommand;
-import com.springbank.user.cmd.api.security.PasswordEncoder;
-import com.springbank.user.cmd.api.security.PasswordEncoderImpl;
-import com.springbank.user.core.events.UserRegisteredEvent;
-import com.springbank.user.core.events.UserRemovedEvent;
-import com.springbank.user.core.events.UserUpdatedEvent;
-import com.springbank.user.core.models.User;
+import com.belajar.user.cmd.api.commands.RegisterUserCommand;
+import com.belajar.user.cmd.api.commands.RemoveUserCommand;
+import com.belajar.user.cmd.api.commands.UpdateUserCommand;
+import com.belajar.user.cmd.api.security.PasswordEncoder;
+import com.belajar.user.cmd.api.security.PasswordEncoderImpl;
+import com.belajar.user.core.events.UserRegisteredEvent;
+import com.belajar.user.core.events.UserRemovedEvent;
+import com.belajar.user.core.events.UserUpdatedEvent;
+import com.belajar.user.core.models.User;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;

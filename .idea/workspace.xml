@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/aggregates/UserAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/handlers/UserEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/handlers/UserEventHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/aggregates/UserAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/aggregates/UserAggregate.java" afterDir="false" />
     </list>
     <list id="e1f1b7ca-98e4-445d-9891-1adad390451e" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a5f00427" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613617286547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="-add: user aggregates">
+      <created>1613617638587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613617638587</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,16 +155,17 @@
     <MESSAGE value="refactoring code" />
     <MESSAGE value="-add: models user" />
     <MESSAGE value="-add: user command" />
-    <option name="LAST_COMMIT_MESSAGE" value="-add: user command" />
+    <MESSAGE value="-add: user aggregates" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add: user aggregates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613617285969">
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613617638050">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613617285969" />
-    <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613617306775">
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613617638050" />
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613617661250">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="119" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1613617306775" />
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1613617661250" />
   </component>
 </project>
