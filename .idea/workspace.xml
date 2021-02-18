@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/queries/FindAllUsersQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/queries/FindUserByIdQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/queries/SearchUsersQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/controllers/UserLookupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.query.api/src/main/java/com/belajar/user/query/api/dto/UserLookupResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="e1f1b7ca-98e4-445d-9891-1adad390451e" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a5f00427" />
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613619553859</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="-add: user query handler">
+      <created>1613619772554</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613619772554</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,13 +194,14 @@
     <MESSAGE value="-add: rest controller user register" />
     <MESSAGE value="-add: rest controller user update" />
     <MESSAGE value="-add: rest controller user remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="-add: rest controller user remove" />
+    <MESSAGE value="-add: user query handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add: user query handler" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613619553313">
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613619771952">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613619553313" />
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613619771952" />
     <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613619576104">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
