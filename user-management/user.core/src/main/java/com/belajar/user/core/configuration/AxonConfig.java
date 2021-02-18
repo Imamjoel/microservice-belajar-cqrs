@@ -33,8 +33,8 @@ public class AxonConfig {
 
     @Bean
     public MongoClient mongo() {
-        var mongoFactory = new MongoFactory();
-        var mongoSettingsFactory = new MongoSettingsFactory();
+        MongoFactory mongoFactory = new MongoFactory();
+        MongoSettingsFactory mongoSettingsFactory = new MongoSettingsFactory();
         mongoSettingsFactory.setMongoAddresses(Collections.singletonList(new ServerAddress(mongoHost, mongoPort)));
         mongoFactory.setMongoClientSettings(mongoSettingsFactory.createMongoClientSettings());
 
