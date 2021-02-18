@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="refactoring code">
-      <change afterPath="$PROJECT_DIR$/user-management/user.core/src/main/java/com/belajar/user/core/configuration/AxonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management/user.cmd.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management/user.cmd.api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management/user.core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management/user.core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management/user.query.api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management/user.query.api/pom.xml" afterDir="false" />
+    <list default="true" id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/RegisterUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/RemoveUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/UpdateUserCommand.java" afterDir="false" />
     </list>
-    <list id="e1f1b7ca-98e4-445d-9891-1adad390451e" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a5f00427">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list id="e1f1b7ca-98e4-445d-9891-1adad390451e" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a5f00427" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +55,22 @@
       <recent name="com.belajar.user.core.models" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="" />
@@ -95,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613493496528</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-add: models user">
+      <created>1613616923996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613616923996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,22 +127,28 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit basic project" />
     <MESSAGE value="refactoring code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+    <MESSAGE value="-add: models user" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add: models user" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613616882939">
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613616923416">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613616882939" />
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613616923416" />
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613616989562">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1613616989562" />
   </component>
 </project>
