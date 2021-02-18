@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="-add:">
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/commands/RegisterUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/commands/RemoveUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/commands/UpdateUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/controllers/RegisterUserController.java" afterDir="false" />
+    <list default="true" id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/RegisterUserCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/RemoveUserCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/UpdateUserCommand.java" beforeDir="false" />
     </list>
     <list id="e1f1b7ca-98e4-445d-9891-1adad390451e" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a5f00427" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613618260182</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-add: rest controller user register">
+      <created>1613618954840</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613618954840</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,16 +168,17 @@
     <MESSAGE value="-add: user command" />
     <MESSAGE value="-add: user aggregates" />
     <MESSAGE value="-add: user event handler &amp; initial repositories user" />
-    <option name="LAST_COMMIT_MESSAGE" value="-add: user event handler &amp; initial repositories user" />
+    <MESSAGE value="-add: rest controller user register" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add: rest controller user register" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613618903956">
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613618954242">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613618903956" />
-    <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613618285850">
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613618954242" />
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613618969519">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="119" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1613618285850" />
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1613618969519" />
   </component>
 </project>
