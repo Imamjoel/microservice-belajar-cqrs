@@ -46,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -125,5 +126,11 @@
     <MESSAGE value="first commit basic project" />
     <MESSAGE value="refactoring code" />
     <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613616882939">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613616882939" />
   </component>
 </project>
