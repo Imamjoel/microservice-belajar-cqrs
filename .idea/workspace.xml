@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9beb3541-8b7d-4cfa-8d94-9627dc2e660a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/RegisterUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/RemoveUserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/command/UpdateUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management/user.cmd.api/src/main/java/com/belajar/user/cmd/api/aggregates/UserAggregate.java" afterDir="false" />
     </list>
     <list id="e1f1b7ca-98e4-445d-9891-1adad390451e" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit a5f00427" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613616923996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-add: user command">
+      <created>1613617286547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613617286547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,16 +144,17 @@
     <MESSAGE value="first commit basic project" />
     <MESSAGE value="refactoring code" />
     <MESSAGE value="-add: models user" />
-    <option name="LAST_COMMIT_MESSAGE" value="-add: models user" />
+    <MESSAGE value="-add: user command" />
+    <option name="LAST_COMMIT_MESSAGE" value="-add: user command" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613616923416">
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1613617285969">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613616923416" />
-    <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613616989562">
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1613617285969" />
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2" timestamp="1613617306775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="119" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1613616989562" />
+    <state x="275" y="119" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1613617306775" />
   </component>
 </project>
