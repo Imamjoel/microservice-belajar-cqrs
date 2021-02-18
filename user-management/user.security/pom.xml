@@ -65,6 +65,11 @@
 			<artifactId>jaxb-impl</artifactId>
 			<version>2.3.0.1</version>
 			</dependency>
+		<dependency>
+			<groupId>com.belajar</groupId>
+			<artifactId>user.core</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

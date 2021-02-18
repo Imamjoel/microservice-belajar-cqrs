@@ -1,11 +1,15 @@
 package com.belajar.user.security.services;
 
+import com.belajar.user.core.models.Account;
+import com.belajar.user.core.models.User;
 import com.belajar.user.security.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 @Service(value = "userService")
 public class UserService implements UserDetailsService {
@@ -18,13 +22,13 @@ public class UserService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        var user = userRepository.findByUsername(username);
+        Optional<User> user = userRepository.findByUsername(username);
 
-        if (user.isEmpty()) {
+        if (!user.isPresent()) {
             throw new UsernameNotFoundException("Incorrect Username / Password supplied!");
         }
 
-        var account = user.get().getAccount();
+        Account account = user.get().getAccount();
 
         return org.springframework.security.core.userdetails.User
                 .withUsername(username)
