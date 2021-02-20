@@ -1,7 +1,8 @@
 package com.belajar.user.cmd.api.controllers;
 
 import com.belajar.user.cmd.api.commands.UpdateUserCommand;
-import com.belajar.user.cmd.api.dto.BaseResponse;
+import com.belajar.user.core.dto.BaseResponse;
+import lombok.var;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -2,6 +2,7 @@ package com.belajar.user.cmd.api.controllers;
 
 import com.belajar.user.cmd.api.commands.RegisterUserCommand;
 import com.belajar.user.cmd.api.dto.RegisterUserResponse;
+import lombok.var;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -9,6 +9,7 @@ import com.belajar.user.core.events.UserRegisteredEvent;
 import com.belajar.user.core.events.UserRemovedEvent;
 import com.belajar.user.core.events.UserUpdatedEvent;
 import com.belajar.user.core.models.User;
+import lombok.var;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;

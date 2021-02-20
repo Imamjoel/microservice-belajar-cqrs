@@ -1,6 +1,6 @@
 package com.belajar.user.cmd.api.commands;
 
-import com.springbank.user.core.models.User;
+import com.belajar.user.core.models.User;
 import lombok.Builder;
 import lombok.Data;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;

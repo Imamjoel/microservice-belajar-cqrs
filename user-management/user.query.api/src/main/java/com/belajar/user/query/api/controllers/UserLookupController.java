@@ -4,6 +4,7 @@ import com.belajar.user.query.api.dto.UserLookupResponse;
 import com.belajar.user.query.api.queries.FindAllUsersQuery;
 import com.belajar.user.query.api.queries.FindUserByIdQuery;
 import com.belajar.user.query.api.queries.SearchUsersQuery;
+import lombok.var;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;
 import org.springframework.beans.factory.annotation.Autowired;
