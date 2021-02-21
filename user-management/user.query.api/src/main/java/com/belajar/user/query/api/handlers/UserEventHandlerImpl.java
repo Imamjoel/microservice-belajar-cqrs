@@ -23,6 +23,7 @@ public class UserEventHandlerImpl implements UserEventHandler {
     @EventHandler
     @Override
     public void on(UserRegisteredEvent event) {
+
         userRepository.save(event.getUser());
     }
 
