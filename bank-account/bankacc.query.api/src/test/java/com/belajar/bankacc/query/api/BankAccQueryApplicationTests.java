@@ -1,10 +1,10 @@
-package com.belajar.bankacc.core;
+package com.belajar.bankacc.query.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class BankAccQueryApplicationTests {
 
 	@Test
 	void contextLoads() {
