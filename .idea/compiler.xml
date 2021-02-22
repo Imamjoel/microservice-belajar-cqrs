@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,7 +11,6 @@
         <module name="user.query.api" />
         <module name="user.cmd.api" />
         <module name="bankacc.query.api" />
-        <module name="bank-account" />
         <module name="api-gateway" />
         <module name="bankacc.core" />
         <module name="bankacc.cmd.api" />
