@@ -96,6 +96,6 @@ public class AccountAggregate {
 
     @EventSourcingHandler
     public void on(AccountClosedEvent event) {
-        AggregateLifecycle.apply(event);
+        AggregateLifecycle.markDeleted();
     }
 }

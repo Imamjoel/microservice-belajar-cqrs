@@ -30,12 +30,17 @@ spring:
             predicates:
               - Path=/api/v1/openBankAccount
 
-        - id: bankAccCmdApi-depositFunds
+        - id: bankAccCmdApi-DepositFunds
           uri: http://localhost:9091/api/v1/depositFunds/**
             predicates:
               - Path=/api/v1/depositFunds/**
 
-        - id: bankAccCmdApi-withdrawFunds
+        - id: bankAccCmdApi-WithdrawFunds
             uri: http://localhost:9091/api/v1/withdrawFunds/**
               predicates:
                 - Path=/api/v1/withdrawFunds/**
+
+        id: bankAccCmdApi-CloseAccount
+          uri: http://localhost:9091/api/v1/closeBankAccount/**
+            predicates:
+              - Path=/api/v1/closeBankAccount/**

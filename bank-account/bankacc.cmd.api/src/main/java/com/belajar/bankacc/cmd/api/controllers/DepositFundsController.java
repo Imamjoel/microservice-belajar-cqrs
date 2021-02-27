@@ -23,7 +23,7 @@ public class DepositFundsController {
     }
 
     @PutMapping(path = "/{id}")
-    @PreAuthorize("hashAuthority('WRITE_PRIVILEGE')")
+    @PreAuthorize("hasAuthority('WRITE_PRIVILEGE')")
     public ResponseEntity<BaseResponse> depositFunds(@PathVariable(value = "id") String id,
                                                      @Valid @RequestBody DepositFundsCommand command) {
         try {

@@ -27,7 +27,7 @@ public class OpenAccountController {
     }
 
     @PostMapping
-    @PreAuthorize("hashAuthority('WRITE_PRIVILEGE')")
+    @PreAuthorize("hasAuthority('WRITE_PRIVILEGE')")
     public ResponseEntity<OpenAccountResponse> openAccount(@Valid @RequestBody OpenAccountCommand command) {
         var id = UUID.randomUUID().toString();
         command.setId(id);
