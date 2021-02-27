@@ -1,6 +1,7 @@
 package com.belajar.bankacc.cmd.api.controllers;
 
 import com.belajar.bankacc.cmd.api.commands.DepositFundsCommand;
+import com.belajar.bankacc.cmd.api.commands.WithDrawFundsCommand;
 import com.belajar.bankacc.core.dto.BaseResponse;
 import lombok.var;
 import org.axonframework.commandhandling.gateway.CommandGateway;
@@ -13,26 +14,26 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping(path = "/api/v1/depositFunds")
-public class DepositFundsController {
+@RequestMapping(path = "/api/v1/withdrawFunds")
+public class WithdrawFundsController {
     private final CommandGateway commandGateway;
 
     @Autowired
-    public DepositFundsController(CommandGateway command) {
+    public WithdrawFundsController(CommandGateway command) {
         this.commandGateway = command;
     }
 
     @PutMapping(path = "/{id}")
-    @PreAuthorize("hashAuthority('WRITE_PRIVILEGE')")
-    public ResponseEntity<BaseResponse> depositFunds(@PathVariable(value = "id") String id,
-                                                     @Valid @RequestBody DepositFundsCommand command) {
+    @PreAuthorize("hasAuthority('WRITE_PRIVILEGE')")
+    public ResponseEntity<BaseResponse> withdrawFunds(@PathVariable(value = "id") String id,
+                                                     @Valid @RequestBody WithDrawFundsCommand command) {
         try {
             command.setId(id);
             commandGateway.send(command);
 
-            return new ResponseEntity<>(new BaseResponse("funds successfully deposited"), HttpStatus.OK);
+            return new ResponseEntity<>(new BaseResponse("withdraw successfully complete"), HttpStatus.OK);
         } catch (Exception e) {
-            var safeError = "error while proccessing to deposit fund into bank account for id - " + id;
+            var safeError = "error while proccessing to withdraw fund into bank account for id - " + id;
             return new ResponseEntity<>(new BaseResponse(safeError), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
